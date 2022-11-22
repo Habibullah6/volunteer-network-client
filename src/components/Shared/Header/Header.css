@@ -1,0 +1,29 @@
+.navbar-btn{
+    background-color: #0d6efd;
+    color: white;
+    padding: 5px 30px;
+    
+    
+}
+.user-name{
+border-bottom: 3px solid black;
+color: #0d6efd;
+
+}
+.header-logo{
+    width: 15%;
+}
+
+
+.search-input-field{
+    width: 40%;
+}
+
+@media only screen and (max-width: 767px){
+    .search-input-field{
+        width: 90%;
+    }
+    .header-logo{
+        width: 30%;
+    }
+}

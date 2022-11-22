@@ -1,0 +1,21 @@
+
+
+.dashboard li{
+    list-style-type: none;
+    padding: 10px 0px;
+    cursor: pointer;
+}
+
+.dashboard li:hover{
+    color: #0d6efd;
+}
+
+.userIcon{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.plusIcon{
+    width: 20px;
+    margin-right: 10px;
+}

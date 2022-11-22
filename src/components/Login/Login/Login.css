@@ -1,0 +1,25 @@
+.registerLogin-form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    margin: auto;
+}
+
+
+.registerLogin-form form input{
+    width: 40%;
+    margin: 0.5rem 0rem;
+    height: 3rem;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid black;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .registerLogin-form form input{
+      width: 90%;
+    }
+  }
