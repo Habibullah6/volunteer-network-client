@@ -12,12 +12,7 @@ const firebaseConfig = {
     appId: process.env.REACT_APP_FIREBASE_APP_ID
 
 
-    // apiKey: "AIzaSyAVGzHq87boGicLPU8E0uYJ4y6_AUmxghU",
-    // authDomain: "volunteer-network-650f3.firebaseapp.com",
-    // projectId: "volunteer-network-650f3",
-    // storageBucket: "volunteer-network-650f3.appspot.com",
-    // messagingSenderId: "273983013978",
-    // appId: "1:273983013978:web:bd757aef9a124087258463"
+  
 
 
 
