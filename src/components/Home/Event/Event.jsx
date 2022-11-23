@@ -9,8 +9,8 @@ const Event = (props) => {
     <Col >
       <Card className='mb-3 p-2 event-card' as={NavLink} to={`/registerForm/${_id}`}>
         <Card.Img variant="top" src={img} className='img-fluid'/>
-        <Card.Body>
-            <h5>{title}</h5>
+        <Card.Body className=''>
+            <span>{title}</span>
         </Card.Body>
       </Card>
     </Col>

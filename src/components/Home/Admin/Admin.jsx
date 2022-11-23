@@ -90,7 +90,7 @@ const Admin = () => {
 
                 <div className='col-md-10  '>
                     {
-                        showInfo.registration === true ? <span className='fs-4 text-danger fw-bold'> <FaList /> volunteer register list  </span> : <span className='fs-4 text-danger fw-bold'> <AiFillFileAdd /> add event </span>
+                        showInfo.registration === true ? <span className='fs-4 text-primary'> <FaList /> volunteer register list  </span> : <span className='fs-4 text-primary'> <AiFillFileAdd /> add event </span>
                     }
 
 

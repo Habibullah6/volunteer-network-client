@@ -1,11 +1,10 @@
 import React from 'react';
+import notFoundLogo from "../../logos/notFound.gif";
 
 const NotFound = () => {
     return (
-        <div className='mt-5'>
-            <h1>404</h1>
-            <p>Page not found !</p>
-            <p>Sorry this page doesn't exist please check the URL or go back a page</p>
+        <div>
+            <img src={notFoundLogo} className='img-fluid w-25' alt="" />
         </div>
     );
 };
