@@ -13,7 +13,8 @@
 ##### Frontend
 -------------
 * React
-* Bootstrap-4
+* Bootstrap-5
+* React-Bootstrap
 * React router
 * Firebase authentication
 * Deploy--- Firebase
