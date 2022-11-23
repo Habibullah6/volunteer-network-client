@@ -6,7 +6,7 @@ const Events = () => {
     const [events, setEvents] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:5000/events')
+        fetch('https://volunteer-network.up.railway.app/events')
             .then(res => res.json())
             .then(data => setEvents(data))
     }, [])
@@ -14,7 +14,7 @@ const Events = () => {
 
 
     return (
-        <div className='container'>
+        <div className='container mt-5'>
             <Row xs={1} md={3} lg={4}>
 
                 {

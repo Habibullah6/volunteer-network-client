@@ -12,7 +12,7 @@ const RegisterForm = () => {
     const { register, handleSubmit, reset, formState: { errors } } = useForm();
     const onSubmit = data => {
 
-        fetch(`http://localhost:5000/eventRegister`, {
+        fetch(`https://volunteer-network.up.railway.app/eventRegister`, {
             method:"POST",
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(data)
@@ -26,7 +26,7 @@ const RegisterForm = () => {
     };
 
     useEffect(() => {
-        fetch(`http://localhost:5000/events/${id}`)
+        fetch(`https://volunteer-network.up.railway.app/events/${id}`)
             .then(res => res.json())
             .then(data => {
                 setEvent(data)

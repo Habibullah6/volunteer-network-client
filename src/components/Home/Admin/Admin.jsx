@@ -30,7 +30,7 @@ const Admin = () => {
 
     useEffect(() => {
 
-        fetch('http://localhost:5000/eventRegister')
+        fetch('https://volunteer-network.up.railway.app/eventRegister')
             .then(res => res.json())
             .then(data => {
                 setRegisterEvent(data)
@@ -50,7 +50,7 @@ const Admin = () => {
         const img = imgRef.current.value;
         let addedEvent = { title: event, description: description, date: date, img: img }
 
-        fetch('http://localhost:5000/events', {
+        fetch('https://volunteer-network.up.railway.app/events', {
             method: "POST",
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(addedEvent)

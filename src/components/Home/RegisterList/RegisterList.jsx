@@ -8,7 +8,7 @@ const RegisterList = ({event}) => {
 
     const proceed = window.confirm('are you sure do you delete permanently?')
     if(proceed){
-        fetch(`http://localhost:5000/eventRegister/${_id}`, {
+        fetch(`https://volunteer-network.up.railway.app/eventRegister/${_id}`, {
             method: "DELETE"
         })
         .then(res => {
