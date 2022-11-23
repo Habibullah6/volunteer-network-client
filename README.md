@@ -8,8 +8,8 @@
 * Volunteer can log in through Gmail or email and password if registered.
 * Admin can view all the volunteer, add new event and manage the whole system.
 
-#### _______________________Technology used__________________________________
-
+### Technology used
+--------------------
 ##### Frontend
 -------------
 * React
