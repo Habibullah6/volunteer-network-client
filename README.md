@@ -4,7 +4,7 @@
 
 ### Features
 * A full-stack social service provider web application project with firebase authentication.
-* A Volunteer can search, register in any event and view the events they already registered.
+* A Volunteer can register in any event and view the events they already registered.
 * Volunteer can log in through Gmail or email and password if registered.
 * Admin can view all the volunteer, add new event and manage the whole system.
 
